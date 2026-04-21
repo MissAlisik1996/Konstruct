@@ -1,0 +1,416 @@
+/* 1440px */
+@media screen and (max-width: 1440px) {
+     .header_text {
+        background-size: cover;
+        aspect-ratio: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .logo_header {
+        margin-bottom: 0;
+        padding-top: 42px;
+    }
+    .partner {
+        margin-top: auto;
+    }
+    .award {
+        margin-bottom: auto;
+    }
+    .scroll {
+        margin-bottom: 30px;
+    }
+    .container {
+    padding: 0 50px;
+}
+}
+/* 1350px */
+@media screen and (max-width: 1350px) {
+    .company {
+        margin-left: 150px;
+    }
+}
+/* 1200px */
+@media screen and (max-width: 1200px) {
+    .company {
+        margin-left: 90px;
+    }
+    .socials {
+        margin-right: 50px;
+    }
+}
+/* 1025px */
+@media screen and (max-width: 1025px) {
+     .container {
+    padding: 0 15px;
+    }
+    .story_inner {
+        flex-wrap: wrap;
+    }
+    .navbar {
+    padding: 0 100px;
+    }
+    .services_bottom {
+        flex-wrap: wrap; /* Разрешаем перенос карточек */
+        justify-content: center; /* Центрируем карточки */
+        gap: 25px; /* Расстояние между карточками */
+    }
+    .services_card {
+        flex: 1 1 calc(33.33% - 25px); /* 3 карточки в ряд с учётом gap */
+        min-width: 250px; /* Минимальная ширина карточки */
+        margin-right: 0; /* Убираем старый margin, используем gap */
+        padding: 30px 20px; /* Немного уменьшаем внутренние отступы */
+    }
+    .services_text_bottom {
+        width: auto; /* Убираем фиксированную ширину */
+        max-width: 100%; /* На всю ширину карточки */
+    }
+}
+/* 997px */
+@media screen and (max-width: 997px) {
+    .services {
+        margin-bottom: 0;
+        padding: 25px 0;
+    }
+    .story_inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services_bottom {
+        align-items: center;
+        margin-right: 0;
+        
+    }
+    .services_top {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .services_title_2 {
+        margin-right: 0;
+    }
+    .services_card {
+        
+        min-width: 280px; /* Минимальная ширина */
+        max-width: 350px; 
+        margin-right: 0;
+    }
+    .company__p, .links_2_p, .links_3_p, .links_4_p, .links_5_p, .links_6_p, .links_2, .links_3, .contact_2_p, .contact_3_p, .contact_4_p {
+        font-size: 8px;
+    }
+    .story_left {
+        margin-right: 0;
+        text-align: center;
+    }
+    .get_in_btn {
+    font-size: 10px;
+    font-weight: 700;
+    width: 120px;
+    height: 30px;
+    }
+    .get_in_2 {
+        padding-top: 50px;
+    }    
+}
+/* 830px */
+@media screen and (max-width: 830px) {
+    .get_in {
+        background-size: cover; /* Меняем contain на cover, чтобы фон полностью покрывал блок */
+        aspect-ratio: auto; /* Убираем фиксированное соотношение сторон */
+        min-height: 400px; /* Задаём минимальную высоту */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Центрируем содержимое по вертикали */
+        align-items: center; /* Центрируем по горизонтали */
+        padding: 40px 20px; /* Добавляем внутренние отступы */
+    }
+    .get_in_2 {
+        font-size: 24px; /* Уменьшаем размер шрифта */
+        line-height: 32px; /* Адаптируем межстрочный интервал */
+        padding: 0; /* Убираем верхний отступ */
+        width: auto; /* Убираем фиксированную ширину */
+        max-width: 280px; /* Ограничиваем максимальную ширину */
+        margin: 0 auto 25px auto; /* Обновляем отступ снизу */
+    }
+    .get_in_btn {
+        width: 180px; /* Немного увеличиваем ширину для удобства нажатия пальцем */
+        height: 44px; /* Увеличиваем высоту */
+        font-size: 14px; /* Чуть крупнее шрифт для читаемости */
+    }
+    .newsletter {
+        flex-direction: column; /* Вертикальное расположение */
+        height: auto; /* Убираем фиксированную высоту */
+        gap: 20px; /* Уменьшаем расстояние между элементами */
+        padding: 30px 20px; /* Добавляем внутренние отступы */
+    }
+    .newsletter__h2 {
+        font-size: 18px; /* Уменьшаем размер шрифта */
+        text-align: center; /* Центрируем текст */
+    }
+    .emeil__block {
+        flex-direction: column; /* Поле ввода и кнопка друг под другом */
+        width: 100%; /* На всю ширину */
+        max-width: 300px; /* Ограничиваем максимальную ширину */
+        gap: 15px; /* Расстояние между полем и кнопкой */
+    }
+    .email {
+        padding: 12px 15px; /* Уменьшаем горизонтальные отступы */
+        width: 100%; /* Поле на всю ширину блока */
+        box-sizing: border-box; /* Чтобы padding не увеличивал ширину */
+        text-align: center; /* Текст по центру (опционально) */
+    }
+    .email-button {
+        padding: 12px 20px; /* Уменьшаем отступы кнопки */
+        width: 100%; /* Кнопка на всю ширину */
+        box-sizing: border-box;
+    }
+    .footer {
+        height: auto; /* Убираем фиксированную высоту, чтобы контент не вылезал */
+        padding: 40px 20px; /* Добавляем внутренние отступы */
+    }
+    .company__footer {
+        flex-direction: column; /* Вертикальное расположение блоков */
+        align-items: center; /* Центрируем по горизонтали */
+        gap: 30px; /* Расстояние между блоками */
+    }
+    .company {
+        width: 100%; /* На всю ширину */
+        max-width: 300px; /* Ограничиваем максимальную ширину */
+        margin: 0 auto 20px auto; /* Центрируем и убираем старые марджины */
+        text-align: center; /* Текст по центру (опционально) */
+    }
+    .links {
+        flex-wrap: wrap; /* Перенос колонок на новую строку */
+        justify-content: center; /* Центрируем колонки */
+        gap: 30px; /* Расстояние между колонками */
+        margin-bottom: 20px;
+    }
+    .links_1, 
+    .links_2, 
+    .links_3 {
+        width: auto; /* Авто-ширина */
+        margin-right: 0; /* Убираем правые отступы */
+        text-align: center;
+    }
+    .contact {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .socials {
+        margin: 0 auto; /* Центрируем иконки */
+    }
+    .logo_footer {
+        margin: 0 auto 10px auto; /* Центрируем логотип */
+    }
+    .copyright__p {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255,255,255,0.1); /* Легкая разделительная линия */
+    }
+}
+/* 700px */ 
+@media screen and (max-width: 700px) {
+     .header_text {
+        background-size: cover; /* Меняем contain на cover, чтобы фон покрывал весь блок */
+        aspect-ratio: auto; /* Убираем фиксированное соотношение сторон */
+        min-height: 100vh; /* Минимальная высота на весь экран */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Распределяем контент по вертикали */
+        padding: 0 20px; /* Добавляем боковые отступы */
+    }
+    .logo_header {
+        width: 80px; /* Уменьшаем логотип */
+        padding-top: 30px; /* Уменьшаем верхний отступ */
+        margin-bottom: 0; /* Убираем нижний отступ */
+    }
+    .partner {
+        font-size: 40px; /* Уменьшаем шрифт с 60px до 40px */
+        letter-spacing: 4px; /* Уменьшаем межбуквенный интервал */
+        line-height: 1.2; /* Улучшаем читаемость */
+        padding: 0 10px; /* Добавляем отступы по бокам */
+    }
+    .award {
+        font-size: 14px; /* Уменьшаем шрифт с 16px до 14px */
+        margin-bottom: 0; /* Убираем нижний отступ */
+        padding: 0 15px; /* Добавляем отступы по бокам */
+    }
+    .scroll {
+        font-size: 10px; /* Немного уменьшаем шрифт */
+        letter-spacing: 2px; /* Уменьшаем межбуквенный интервал */
+        margin-bottom: 30px; /* Добавляем отступ снизу */
+    }
+    .header_text {
+        /* Центрируем основной контент */
+        justify-content: center;
+        gap: 20px;
+    }
+    .navbar {
+        padding: 0 20px; /* Убираем большие боковые отступы (было 290px) */
+        flex-direction: column; /* Логотип и меню друг под другом */
+        height: auto; /* Убираем фиксированную высоту */
+        gap: 10px; /* Расстояние между логотипом и меню */
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .menu_inner ul {
+        flex-wrap: wrap; /* Пункты меню переносятся на новую строку */
+        justify-content: center; /* Центрируем пункты меню */
+        padding: 0; /* Убираем внутренние отступы */
+        margin: 0; /* Убираем внешние отступы */
+    }
+    .menu_inner ul li {
+        margin: 10px 12px; /* Уменьшаем отступы между пунктами */
+    }
+    .menu_inner ul li a {
+        font-size: 11px; /* Немного уменьшаем шрифт */
+        letter-spacing: 0.8px; /* Уменьшаем межбуквенный интервал */
+    }
+    .logo_black {
+        width: 70px; /* Немного уменьшаем логотип */
+    }
+}
+/* 576px */
+@media screen and (max-width: 576px){
+    .services_card {
+        flex: 1 1 calc(50% - 25px); /* 2 карточки в ряд */
+    }
+    .services_card {
+        flex: 1 1 100%; /* На всю ширину */
+        max-width: 350px; /* Ограничиваем максимальную ширину */
+        width: 100%;
+        text-align: center; /* Центрируем текст (опционально) */
+        padding: 25px 20px;
+    }
+    .services_title_3 {
+        font-size: 15px; /* Уменьшаем шрифт */
+        margin-bottom: 10px;
+    }
+    .services_text_bottom {
+        font-size: 12px; /* Уменьшаем текст */
+        line-height: 20px;
+    }
+    .services_icon {
+        margin-bottom: 15px; /* Добавляем отступ под иконкой */
+    }
+} 
+/* 504px */
+@media screen and (max-width: 504px) {
+    .story {
+        padding: 15px 20px 40px 20px; /* Добавляем боковые отступы */
+    }
+    .story_inner {
+        flex-direction: column; /* Левая и правая часть друг под другом */
+        gap: 40px; /* Расстояние между левой и правой частью */
+    }
+    .story_left {
+        max-width: 100%; /* На всю ширину */
+        margin-right: 0; /* Убираем правый отступ */
+        text-align: center; /* Центрируем текст */
+    }
+    .story_title_2 {
+        font-size: 16px; /* Уменьшаем шрифт */
+        letter-spacing: 1.8px; /* Уменьшаем межбуквенный интервал */
+        padding: 20px 0;
+    }
+    .story_title_3 {
+        font-size: 18px; /* Уменьшаем шрифт */
+        margin-bottom: 15px;
+    }
+    .story_text {
+        font-size: 12px; /* Немного уменьшаем текст */
+        line-height: 20px;
+    }
+    .story_right {
+        flex-direction: column; /* Карточки друг под другом */
+        align-items: center; /* Центрируем карточки */
+        gap: 20px;
+    }
+    .story_item {
+        width: 100%; /* На всю ширину */
+        max-width: 280px; /* Ограничиваем максимальную ширину */
+        height: auto; /* Автовысота */
+        min-height: 180px; /* Минимальная высота */
+        background-size: cover; /* Фон покрывает всю карточку */
+        background-position: center;
+        display: flex;
+        align-items: center; /* Центрируем текст по вертикали */
+        justify-content: center; /* Центрируем текст по горизонтали */
+        text-align: center;
+        font-size: 20px; /* Уменьшаем шрифт */
+        line-height: 26px;
+        padding: 20px;
+    }
+}
+/* 480px */
+@media screen and (max-width: 480px) {
+     .partner {
+        font-size: 32px; /* Ещё меньше шрифт */
+        letter-spacing: 3px;
+    }
+    .award {
+        font-size: 12px;
+    }
+    .logo_header {
+        width: 65px;
+        padding-top: 20px;
+    }
+    .scroll {
+        font-size: 9px;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+    }
+    .navbar {
+        padding: 10px 15px;
+    }
+    .menu_inner ul li {
+        margin: 8px 10px;
+    }
+    .menu_inner ul li a {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+    .logo_black {
+        width: 60px;
+    }
+    .get_in_2 {
+        font-size: 20px; /* Ещё меньше шрифт */
+        line-height: 28px;
+        max-width: 250px;
+    }
+    .get_in_btn {
+        width: 160px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+/* 375px */
+@media screen and (max-width: 375px) {
+     .partner {
+        font-size: 28px;
+        letter-spacing: 2.5px;
+    }
+    .award {
+        font-size: 11px;
+    }
+    .logo_header {
+        width: 55px;
+    }
+    .story_title_3 {
+        font-size: 16px;
+    }
+
+    .story_text {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .story_item {
+        font-size: 18px;
+        min-height: 160px;
+    }
+}
